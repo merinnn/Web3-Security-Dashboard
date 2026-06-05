@@ -11,19 +11,19 @@ The application architecture establishes a closed-loop **Dual-Agent Competition 
 
 ### 1. Real-Time SecOps Dashboard Monitor
 The central operations desk handles live telemetry data parsing, visual gas velocity curve plots using Chart.js, and concurrent transaction ingestion.
-![Live Monitor Panel](public/images/dashboard_monitor.png)
+![Live Monitor Panel](Screenshot%2026-06-05%181621.png)
 
 ### 2. Live Security Activity Stream
 An instantaneous console capture detailing the real-time interaction between the adversarial execution layer and the autonomous guardian refactor iterations.
-![Activity Stream Component](public/images/activity_stream.png)
+![Activity Stream Component](Screenshot%2026-06-05%181634.png)
 
 ### 3. VAPT Smart Contract Directory
 Toggling the navigation path switches views natively to inspect audited contract arrays, tracking fluid security metric shifts from vulnerable states up to 100% patched structures.
-![Contract Audits Panel](public/images/contract_audits.png)
+![Contract Audits Panel](Screenshot%2026-06-05%181648.png)
 
 ### 4. Incident Log Archive Index
 A decoupled data caching ledger tracking distinct historical threats blocked by the defensive engine, ensuring persistent compliance auditing.
-![Incidents Log Tab](public/images/incident_log.png)
+![Incidents Log Tab](Screenshot%2026-06-05%181701.png)
 
 ---
 
@@ -46,3 +46,20 @@ Web3-Security-Dashboard/
 └── scripts/                     # Multi-agent simulation loop orchestrators
     └── arena_orchestrator.py    # Automated adversarial attack & defense runner
 ```
+## 🛠️ Local Initialization
+Prerequisites
+Ensure your workstation possesses standard Python 3 execution frameworks:
+
+Bash
+pip install flask sqlite3
+
+## Launching the Pipeline Environment
+Deploy the local file-serving network module background node:
+
+Bash
+python -m http.server --directory public 8080 &
+Initiate the dual-agent attack/defense simulation runner:
+
+Bash
+python scripts/arena_orchestrator.py &
+Navigate your browser core to view the live dashboard: http://localhost:8080
