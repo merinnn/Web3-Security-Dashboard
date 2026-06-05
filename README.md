@@ -50,16 +50,18 @@ Web3-Security-Dashboard/
 Prerequisites
 Ensure your workstation possesses standard Python 3 execution frameworks:
 
-Bash
+```Bash
 pip install flask sqlite3
-
-## Launching the Pipeline Environment
+```
+### Launching the Pipeline Environment
 Deploy the local file-serving network module background node:
 
-Bash
+```Bash
 python -m http.server --directory public 8080 &
+```
 Initiate the dual-agent attack/defense simulation runner:
 
-Bash
+```Bash
 python scripts/arena_orchestrator.py &
+```
 Navigate your browser core to view the live dashboard: http://localhost:8080
