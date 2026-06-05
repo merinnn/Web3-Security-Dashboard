@@ -1,0 +1,16 @@
+{
+  "tvl": "-40182.79 ETH",
+  "gas": "23 Gwei",
+  "exploitCount": 66,
+  "zkp": 130,
+  "latestEvent": {
+    "type": "info",
+    "text": "[MITIGATION SUCCESS] Guardian Agent refactored Vault.sol using Checks-Effects-Interactions pattern."
+  },
+  "latestTx": {
+    "hash": "0xDEAD...BF",
+    "method": "exploitWithdraw",
+    "value": "650.00 ETH"
+  },
+  "timestamp": 1780663773.0411243
+}
