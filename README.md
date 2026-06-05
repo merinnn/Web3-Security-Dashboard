@@ -11,19 +11,19 @@ The application architecture establishes a closed-loop **Dual-Agent Competition 
 
 ### 1. Real-Time SecOps Dashboard Monitor
 The central operations desk handles live telemetry data parsing, visual gas velocity curve plots using Chart.js, and concurrent transaction ingestion.
-![Live Monitor Panel](Screenshot%2026-06-05%181621.png)
+![Live Monitor Panel](Screenshot%202026-06-05%20181621.png)
 
 ### 2. Live Security Activity Stream
 An instantaneous console capture detailing the real-time interaction between the adversarial execution layer and the autonomous guardian refactor iterations.
-![Activity Stream Component](Screenshot%2026-06-05%181634.png)
+![Activity Stream Component](Screenshot%202026-06-05%20181634.png)
 
 ### 3. VAPT Smart Contract Directory
 Toggling the navigation path switches views natively to inspect audited contract arrays, tracking fluid security metric shifts from vulnerable states up to 100% patched structures.
-![Contract Audits Panel](Screenshot%2026-06-05%181648.png)
+![Contract Audits Panel](Screenshot%202026-06-05%20181648.png)
 
 ### 4. Incident Log Archive Index
 A decoupled data caching ledger tracking distinct historical threats blocked by the defensive engine, ensuring persistent compliance auditing.
-![Incidents Log Tab](Screenshot%2026-06-05%181701.png)
+![Incidents Log Tab](Screenshot%202026-06-05%20181701.png)
 
 ---
 
@@ -40,12 +40,12 @@ Web3-Security-Dashboard/
 ├── contracts/                   # Monitored smart contract directory
 │   └── Vault.sol                # Target application asset layer (Autopatched)
 ├── public/                      # User interface microservice
-│   ├── images/                  # UI showcase assets
 │   ├── telemetry.json           # Unified event-driven data pipeline exchange matrix
 │   └── index.html               # SPA responsive Matrix SecOps dashboard code
 └── scripts/                     # Multi-agent simulation loop orchestrators
     └── arena_orchestrator.py    # Automated adversarial attack & defense runner
 ```
+
 ## 🛠️ Local Initialization
 Prerequisites
 Ensure your workstation possesses standard Python 3 execution frameworks:
